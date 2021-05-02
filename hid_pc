@@ -1,0 +1,48 @@
+#!/system/bin/sh
+
+echo left-meta r | ./hid-gadget-test /system/bin/sh keyboard
+echo c m d | ./hid-gadget-test /system/bin/sh keyboard
+sleep 0.5
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
+sleep 0.9
+echo s t a r t | ./hid-gadget-test /system/bin/sh keyboard
+echo space | ./hid-gadget-test /system/bin/sh keyboard
+echo i e x p l o | ./hid-gadget-test /system/bin/sh keyboard
+echo r e  | ./hid-gadget-test /system/bin/sh keyboard
+sleep 0.3
+echo space | ./hid-gadget-test /system/bin/sh keyboard
+echo g i t h u b | ./hid-gadget-test /system/bin/sh keyboard
+echo period | ./hid-gadget-test /system/bin/sh keyboard
+echo c o m | ./hid-gadget-test /system/bin/sh keyboard
+echo slash | ./hid-gadget-test /system/bin/sh keyboard
+echo a n d r o i | ./hid-gadget-test /system/bin/sh keyboard
+echo d m a l | ./hid-gadget-test /system/bin/sh keyboard
+echo w a r e | ./hid-gadget-test /system/bin/sh keyboard
+echo slash | ./hid-gadget-test /system/bin/sh keyboard
+echo h i d | ./hid-gadget-test /system/bin/sh keyboard
+echo slash | ./hid-gadget-test /system/bin/sh keyboard
+echo r a w | ./hid-gadget-test /system/bin/sh keyboard
+echo slash | ./hid-gadget-test /system/bin/sh keyboard
+echo m a i n | ./hid-gadget-test /system/bin/sh keyboard
+echo slash | ./hid-gadget-test /system/bin/sh keyboard
+echo n o t m | ./hid-gadget-test /system/bin/sh keyboard
+echo a l w a r e | ./hid-gadget-test /system/bin/sh keyboard
+echo period | ./hid-gadget-test /system/bin/sh keyboard
+echo e x e | ./hid-gadget-test /system/bin/sh keyboard
+sleep 0.3
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
+sleep 1
+
+echo right | ./hid-gadget-test /system/bin/sh keyboard
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
+sleep 1
+echo left | ./hid-gadget-test /system/bin/sh keyboard
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
+echo left | ./hid-gadget-test /system/bin/sh keyboard
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
+sleep 0.3
+echo down | ./hid-gadget-test /system/bin/sh keyboard
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
+sleep 0.3
+echo up | ./hid-gadget-test /system/bin/sh keyboard
+echo enter | ./hid-gadget-test /system/bin/sh keyboard
